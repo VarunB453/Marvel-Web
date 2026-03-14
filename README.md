@@ -1,114 +1,64 @@
-# 🎬 Marvel Universe Showcase
-## *Dive into an Immersive Cinematic Experience*
-
-<div align="center">
+# Marvel Universe Showcase
 
 ![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=flat-square&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Latest-3178C6?style=flat-square&logo=typescript)
 ![Vite](https://img.shields.io/badge/Vite-5.0+-646CFF?style=flat-square&logo=vite)
-![License](https://img.shields.io/badge/License-Apache%202.0-green?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)
+![Node](https://img.shields.io/badge/Node-18+-339933?style=flat-square&logo=node.js)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
+
+## Overview
+
+Marvel Universe Showcase is a production-ready, single-page React application that demonstrates modern frontend engineering practices through an interactive showcase of Marvel characters, storylines, and cinematic universes. Built with React 18, TypeScript, and advanced animation libraries (GSAP, Framer Motion), this project exemplifies clean architecture, performance optimization, and responsive design patterns.
+
+The application runs entirely client-side with no backend dependencies, making it ideal for static hosting and CDN distribution. All state is managed through React hooks and local TypeScript modules.
+
+**Primary Use Cases:**
+- Portfolio demonstration of modern React patterns
+- Educational reference for animation systems and responsive design
+- Showcase of component-driven architecture principles
+- Best practices in TypeScript and frontend tooling
+
+> **Disclaimer:** This project is created for educational and portfolio purposes only. It is not affiliated with, endorsed by, or in any way connected to Marvel Studios, Marvel Entertainment, Marvel Characters, Inc., or any related entities.
 
 ---
 
-> ✨ **A stunning fan-made React portfolio** showcasing Marvel's most iconic characters, epic story arcs, and the vast multiverse through cutting-edge web technologies and cinematic design.
+## Table of Contents
 
-**⚠️ Disclaimer:** This is a fan project created for educational and portfolio purposes. Not affiliated with Marvel Studios.
-
----
-
-<div align="center">
-<video width="100%" height="auto" autoplay loop muted playsinline style="border-radius: 12px; box-shadow: 0 20px 60px rgba(192, 0, 0, 0.3); max-width: 1200px; margin: 20px 0;">
-  <source src="https://raw.githubusercontent.com/VarunB453/Marvel-Web/main/src/assets/MOP.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</div>
-
----
-
-## 🌟 What's Inside?
-
-This project combines **modern front-end architecture**, **cinematic animations**, and **stunning UI design** into a single interactive experience. No backend required—everything runs client-side!
-
-### Key Highlights:
-- ⚡ **Lightning-fast** React 18 + Vite performance
-- 🎨 **Cinematic animations** with GSAP & Framer Motion
-- 📱 **Fully responsive** from mobile to 4K displays
-- 🎭 **Interactive galleries** with smooth hover effects
-- 🌀 **Parallax scrolling** for immersive multiverse exploration
-- 🎮 **Hidden easter egg** (try right-clicking!)
-- 🔧 **Type-safe** with full TypeScript coverage
+1. [Quick Start](#quick-start)
+2. [System Requirements](#system-requirements)
+3. [Installation](#installation)
+4. [Project Structure](#project-structure)
+5. [Features](#features)
+6. [Configuration](#configuration)
+7. [Usage & Development](#usage--development)
+8. [Build & Deployment](#build--deployment)
+9. [Testing](#testing)
+10. [Architecture](#architecture)
+11. [API Reference](#api-reference)
+12. [Performance Considerations](#performance-considerations)
+13. [Browser Support](#browser-support)
+14. [Contributing](#contributing)
+15. [Troubleshooting](#troubleshooting)
+16. [License](#license)
+17. [Support & Resources](#support--resources)
 
 ---
 
-## ✨ Features That Pop
-
-### 🎭 **Hero & Villain Galleries**
-Explore beautifully curated character cards with:
-- ✓ Dynamic grid layouts that adapt to your screen
-- ✓ Silky-smooth hover animations and transitions
-- ✓ Smart character filtering and grouping
-- ✓ Responsive design that looks perfect everywhere
-
-*Browse through Marvel's most iconic characters in a visually stunning interface inspired by cinematic posters.*
-
-### 🌍 **Multiverse Directory**
-Journey through alternate realities with:
-- ✓ Mind-bending parallax scrolling effects
-- ✓ Cinematic fade-in transitions
-- ✓ Layered visuals that create depth and dimension
-- ✓ Immersive storytelling through motion
-
-*Discover parallel universes and explore the infinite possibilities of the Marvel multiverse.*
-
-### 🕰️ **Infinity Saga Timeline**
-Follow the epic journey across all phases:
-- ✓ Scroll-triggered animations powered by **GSAP ScrollTrigger**
-- ✓ Dynamic transitions between story phases
-- ✓ Rich visual storytelling with motion design
-- ✓ Key milestones and achievements highlighted
-
-*Experience the complete Marvel Cinematic Universe timeline in an interactive, visually engaging format.*
-
-### 📱 **Responsive Perfection**
-Seamlessly adapts across all devices:
-- ✓ Mobile phones (320px+)
-- ✓ Tablets and iPads
-- ✓ Laptops and desktops
-- ✓ Ultra-wide 4K displays
-
-*Built with Tailwind CSS for pixel-perfect layouts everywhere.*
-
-### ⚡ **Smooth Motion System**
-Animations that feel natural and polished:
-- ✓ **Framer Motion** for component-level animations
-- ✓ **GSAP** for scroll-based cinematic effects
-- ✓ 60 FPS performance without sacrificing beauty
-- ✓ GPU-accelerated transforms
-
-*Every interaction feels intentional and delightful.*
-
-### 🎮 **Interactive Elements**
-Engage with hidden surprises:
-- ✓ Right-click anywhere to trigger a secret audio effect
-- ✓ Hover states that respond to your cursor
-- ✓ Click-through interactions throughout
-- ✓ More easter eggs waiting to be discovered
-
----
-
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
-- **Node.js** 18+ ([Download](https://nodejs.org/))
-- **npm**, **yarn**, **pnpm**, or **bun**
 
-### Get It Running (30 seconds!)
+- **Node.js:** v18.0.0 or higher
+- **npm:** v9.0.0 or higher (or yarn/pnpm/bun equivalent)
+- **Git:** For repository management
+
+### Installation & Launch
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd marvel-universe-showcase
+git clone https://github.com/VarunB453/Marvel-Web.git
+cd Marvel-Web
 
 # Install dependencies
 npm install
@@ -117,212 +67,760 @@ npm install
 npm run dev
 ```
 
-Open your browser to **http://localhost:5173** and start exploring! 🎬
+The application will be available at `http://localhost:5173`
 
 ---
 
-## 🛠️ Tech Stack
+## System Requirements
 
-### 🎨 Frontend Framework
-| Tool | Purpose | Version |
-|------|---------|---------|
-| **React** | UI library | 18.0+ |
-| **Vite** | Build tool & dev server | 5.0+ |
-| **TypeScript** | Type safety | Latest |
+### Minimum Requirements
 
-### 💫 Animation & Styling
-| Tool | Purpose |
-|------|---------|
-| **GSAP** | Scroll-based cinematic animations |
-| **Framer Motion** | Component-level motion design |
-| **Tailwind CSS** | Utility-first styling |
-| **Radix UI** | Accessible component primitives |
-| **shadcn/ui** | Pre-built beautiful components |
+| Component | Requirement | Notes |
+|-----------|-------------|-------|
+| **Runtime** | Node.js 18+ | LTS versions recommended |
+| **Package Manager** | npm 9+ | yarn/pnpm/bun supported |
+| **RAM** | 512 MB | For development builds |
+| **Disk Space** | 500 MB | With node_modules |
+| **Browser** | Modern ES2020+ | See Browser Support section |
 
-### 🔧 Developer Experience
-| Tool | Purpose |
-|------|---------|
-| **React Router DOM** | Client-side routing |
-| **TanStack React Query** | Data fetching (ready for APIs) |
-| **Vitest** | Unit testing |
-| **React Testing Library** | Component testing |
-| **clsx & tailwind-merge** | Smart className utilities |
+### Recommended Specifications
 
-### 📦 Utilities
-- **date-fns** - Date manipulation
-- **zod** - Schema validation
-- **ESLint & Prettier** - Code quality
+| Component | Recommendation |
+|-----------|-----------------|
+| **Node.js** | v20 LTS or latest |
+| **RAM** | 2 GB+ for optimal performance |
+| **Processor** | Multi-core processor |
+| **Internet** | Broadband connection for npm packages |
 
 ---
 
-## 📁 Project Architecture
+## Installation
 
-```
-marvel-universe-showcase/
-│
-├── 📂 public/
-│   ├── favicon.ico
-│   └── audio files
-│
-├── 📂 src/
-│   ├── 📂 assets/          # Images, videos, media
-│   ├── 📂 components/      # Reusable React components
-│   │   ├── ui/            # Design system primitives
-│   │   └── sections/      # Page-level sections
-│   ├── 📂 data/           # Static TypeScript data modules
-│   ├── 📂 hooks/          # Custom React hooks
-│   ├── 📂 lib/            # Utility helpers & functions
-│   ├── 📂 pages/          # Route-based pages
-│   ├── 📂 test/           # Test files
-│   ├── App.tsx            # Router configuration
-│   ├── main.tsx           # App entry point
-│   └── index.css          # Global styles
-│
-├── vite.config.ts         # Vite configuration
-├── tsconfig.json          # TypeScript config
-├── tailwind.config.ts     # Tailwind setup
-└── package.json           # Dependencies & scripts
-```
-
-*Clean separation of concerns for maintainability and scalability.*
-
----
-
-## 📜 Available Scripts
+### 1. Repository Cloning
 
 ```bash
-# Development
-npm run dev              # Start dev server at localhost:5173
-npm run build           # Build for production
-npm run preview         # Preview production build locally
+# HTTPS
+git clone https://github.com/VarunB453/Marvel-Web.git
 
-# Testing
-npm run test            # Run all tests once
-npm run test:watch     # Watch mode testing
+# SSH
+git clone git@github.com:VarunB453/Marvel-Web.git
 
-# Code Quality
-npm run lint            # Check for ESLint errors
-npm run format          # Format code with Prettier
+# GitHub CLI
+gh repo clone VarunB453/Marvel-Web
+```
+
+### 2. Directory Navigation
+
+```bash
+cd Marvel-Web
+```
+
+### 3. Dependency Installation
+
+```bash
+# Using npm (default)
+npm install
+
+# Using yarn
+yarn install
+
+# Using pnpm
+pnpm install
+
+# Using bun
+bun install
+```
+
+### 4. Environment Setup
+
+The application requires no environment variables for basic operation. All configuration is contained in source files.
+
+Optional configuration files:
+- `vite.config.ts` - Build and development server configuration
+- `tsconfig.json` - TypeScript compiler settings
+- `tailwind.config.ts` - Tailwind CSS customization
+
+### 5. Verification
+
+```bash
+# Verify installation
+npm run dev
+
+# Expected output:
+# ✔ Server started at http://localhost:5173
 ```
 
 ---
 
-## 🌐 Deployment
+## Project Structure
 
-### Ready to Go Live?
-Since this is a **100% static frontend** application, deployment is simple and fast! 🚀
-
-#### **Recommended Platforms:**
-
-| Platform | Command | Notes |
-|----------|---------|-------|
-| **Vercel** | Auto-deploy from Git | Fastest option |
-| **Netlify** | `netlify deploy --dir=dist --prod` | Great free tier |
-| **GitHub Pages** | Push to `gh-pages` branch | Simple & reliable |
-| **Cloudflare Pages** | Connect Git repo | Fast global CDN |
-
-**Pro Tip:** Enable auto-deployments on push to main for continuous delivery! 📦
+```
+Marvel-Web/
+├── public/                           # Static assets
+│   ├── favicon.ico
+│   └── audio/
+│       └── easter-egg.mp3
+│
+├── src/                              # Source code
+│   ├── assets/                       # Media files
+│   │   ├── images/
+│   │   ├── videos/
+│   │   └── MOP.mp4
+│   │
+│   ├── components/                   # Reusable React components
+│   │   ├── ui/                       # Design system components
+│   │   │   ├── Button.tsx
+│   │   │   ├── Card.tsx
+│   │   │   ├── Dialog.tsx
+│   │   │   └── [other primitives]
+│   │   │
+│   │   └── sections/                 # Page-level components
+│   │       ├── Header.tsx
+│   │       ├── Hero.tsx
+│   │       ├── CharacterGallery.tsx
+│   │       ├── Timeline.tsx
+│   │       └── Footer.tsx
+│   │
+│   ├── data/                         # Static data modules
+│   │   ├── characters.ts             # Character dataset
+│   │   ├── universes.ts              # Universe definitions
+│   │   ├── timeline.ts               # Saga timeline data
+│   │   └── types.ts                  # TypeScript type definitions
+│   │
+│   ├── hooks/                        # Custom React hooks
+│   │   ├── useAnimation.ts
+│   │   ├── useResponsive.ts
+│   │   ├── useScrollTrigger.ts
+│   │   └── useTheme.ts
+│   │
+│   ├── lib/                          # Utility functions
+│   │   ├── animations.ts
+│   │   ├── validators.ts
+│   │   ├── helpers.ts
+│   │   └── constants.ts
+│   │
+│   ├── pages/                        # Route-based page components
+│   │   ├── Home.tsx
+│   │   ├── Characters.tsx
+│   │   ├── Timeline.tsx
+│   │   ├── Universes.tsx
+│   │   └── NotFound.tsx
+│   │
+│   ├── test/                         # Test files
+│   │   ├── components.test.tsx
+│   │   ├── hooks.test.ts
+│   │   └── utils.test.ts
+│   │
+│   ├── App.tsx                       # Root component with routing
+│   ├── main.tsx                      # Application entry point
+│   ├── index.css                     # Global styles
+│   └── vite-env.d.ts                 # Vite type definitions
+│
+├── Configuration Files
+│   ├── vite.config.ts                # Vite build configuration
+│   ├── tsconfig.json                 # TypeScript configuration
+│   ├── tailwind.config.ts            # Tailwind CSS configuration
+│   ├── postcss.config.js             # PostCSS configuration
+│   ├── vitest.config.ts              # Test runner configuration
+│   ├── .eslintrc.json                # ESLint rules
+│   ├── .prettierrc                   # Code formatter config
+│   └── .gitignore                    # Git exclusions
+│
+├── package.json                      # Project manifest & dependencies
+├── package-lock.json                 # Locked dependency versions
+├── README.md                         # This file
+├── LICENSE                           # Apache 2.0 license
+└── .github/
+    ├── CONTRIBUTING.md               # Contribution guidelines
+    ├── CODE_OF_CONDUCT.md            # Community standards
+    └── ISSUE_TEMPLATE/               # Issue templates
+```
 
 ---
 
-## 🧪 Testing
+## Features
+
+### 1. Character Galleries
+
+**Description:** Interactive gallery system for browsing Marvel characters
+
+**Capabilities:**
+- Dynamic grid layout with responsive columns
+- Smooth hover animations and transitions
+- Character filtering by role (hero/villain)
+- Character search and sorting functionality
+- Detailed character information cards
+- Image lazy-loading for performance
+
+**Implementation Details:**
+- Component: `src/components/sections/CharacterGallery.tsx`
+- Data Source: `src/data/characters.ts`
+- Animation Library: Framer Motion
+- Styling: Tailwind CSS + custom animations
+
+---
+
+### 2. Multiverse Directory
+
+**Description:** Visualizes alternate universes and parallel realities
+
+**Capabilities:**
+- Parallax scrolling effects
+- Cinematic transition animations
+- Layered visual depth
+- Universe-specific information sections
+- Timeline integration
+- Responsive layout across devices
+
+**Technical Stack:**
+- Animation: GSAP with ScrollTrigger
+- Styling: Tailwind CSS
+- Performance: GPU-accelerated transforms
+
+---
+
+### 3. Infinity Saga Timeline
+
+**Description:** Chronological presentation of Marvel Cinematic Universe phases
+
+**Capabilities:**
+- Scroll-triggered phase animations
+- Dynamic timeline visualization
+- Key event markers and descriptions
+- Phase grouping and organization
+- Mobile-responsive layout
+
+**Technology:**
+- GSAP ScrollTrigger for scroll events
+- React state management for phase tracking
+- Responsive breakpoints for mobile/tablet/desktop
+
+---
+
+### 4. Responsive Design System
+
+**Description:** Comprehensive responsive design across all screen sizes
+
+**Breakpoints:**
+```
+Mobile:     320px - 640px
+Tablet:     641px - 1024px
+Desktop:    1025px - 1440px
+Ultra-Wide: 1441px+
+```
+
+**Implementation:**
+- Tailwind CSS utility-first approach
+- Mobile-first design methodology
+- CSS media queries
+- Flexible layouts with Flexbox/Grid
+
+---
+
+### 5. Animation System
+
+**Description:** Sophisticated motion design throughout the application
+
+**Components:**
+- **Framer Motion:** Component-level animations
+  - Entrance animations
+  - Hover effects
+  - Exit transitions
+  
+- **GSAP:** Advanced scroll-based animations
+  - ScrollTrigger for timeline
+  - Complex sequences
+  - Parallax effects
+
+**Performance Metrics:**
+- Target: 60 FPS minimum
+- Optimization: GPU acceleration, will-change CSS
+- Monitoring: React DevTools Profiler
+
+---
+
+### 6. Interactive Elements
+
+**Description:** User interaction features and easter eggs
+
+**Features:**
+- Right-click context menu (plays audio effect)
+- Hover state feedback on all clickable elements
+- Smooth scroll behavior
+- Keyboard navigation support
+- Touch-friendly interactions for mobile
+
+**Accessibility:**
+- ARIA labels and roles
+- Keyboard focus indicators
+- Screen reader compatibility
+- Color contrast compliance (WCAG AA)
+
+---
+
+## Configuration
+
+### Vite Configuration (`vite.config.ts`)
+
+```typescript
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    port: 5173,
+    strictPort: false,
+    host: true
+  },
+  build: {
+    outDir: 'dist',
+    sourcemap: false
+  }
+})
+```
+
+### TypeScript Configuration (`tsconfig.json`)
+
+Configured with strict mode for maximum type safety.
+
+### Environment Variables
+
+Create `.env.local` for environment-specific settings:
+
+```env
+VITE_ENVIRONMENT=development
+VITE_DEBUG=true
+```
+
+---
+
+## Usage & Development
+
+### Development Workflow
+
+```bash
+# Start development server with hot-reload
+npm run dev
+
+# Run type checking
+npm run type-check
+
+# Run linter
+npm run lint
+
+# Format code
+npm run format
+```
+
+### Available Commands
+
+| Command | Purpose | Output |
+|---------|---------|--------|
+| `npm run dev` | Start dev server | http://localhost:5173 |
+| `npm run build` | Production build | `/dist` folder |
+| `npm run preview` | Preview production build | Local server |
+| `npm run test` | Run test suite | Test results |
+| `npm run test:watch` | Watch mode testing | Continuous testing |
+| `npm run lint` | Check code quality | ESLint report |
+| `npm run format` | Format code | Applied Prettier rules |
+| `npm run type-check` | TypeScript checking | Type errors |
+
+### Code Style Guidelines
+
+**Naming Conventions:**
+- Components: PascalCase (`CharacterCard.tsx`)
+- Functions: camelCase (`handleCharacterSelect()`)
+- Constants: UPPER_SNAKE_CASE (`MAX_CHARACTERS = 50`)
+- Hooks: camelCase starting with `use` (`useAnimation()`)
+
+---
+
+## Build & Deployment
+
+### Production Build
+
+```bash
+# Create optimized build
+npm run build
+
+# Verify build
+npm run preview
+```
+
+### Build Optimization
+
+The build process includes:
+- Code minification
+- Tree-shaking unused code
+- CSS purging (Tailwind)
+- Asset compression
+- Source map generation (optional)
+
+### Deployment Targets
+
+#### Vercel (Recommended)
+
+```bash
+npm i -g vercel
+vercel --prod
+```
+
+#### Netlify
+
+```bash
+npm i -g netlify-cli
+netlify deploy --dir=dist --prod
+```
+
+#### GitHub Pages
+
+```bash
+npm run build
+git subtree push --prefix dist origin gh-pages
+```
+
+#### Cloudflare Pages
+
+Push to repository, Cloudflare auto-deploys with:
+- Build command: `npm run build`
+- Output directory: `dist`
+
+---
+
+## Testing
+
+### Test Framework Setup
 
 ```bash
 # Run test suite
 npm run test
 
-# Watch mode for development
+# Watch mode
 npm run test:watch
 
-# Generate coverage report
+# Coverage report
 npm run test:coverage
 ```
 
-**Coverage includes:**
-- ✅ Component rendering logic
-- ✅ User interaction behavior
-- ✅ State management
-- ✅ Utility functions
+### Testing Strategy
+
+**Unit Tests:**
+- Utility function behavior
+- Component rendering
+- Hook functionality
+
+**Integration Tests:**
+- Page navigation
+- Data flow between components
+- Animation triggers
 
 ---
 
-## 🐛 Troubleshooting
+## Architecture
 
-| Issue | Solution |
-|-------|----------|
-| **Port 5173 already in use** | Change port in `vite.config.ts` or use `npm run dev -- --port 3000` |
-| **Audio not playing** | Click anywhere on the page first (browser autoplay policy) |
-| **TypeScript errors** | Run `npm install` again and restart dev server |
-| **Animations stuttering** | Check browser DevTools Performance tab; may be CPU-bound |
-| **Styles not updating** | Clear `.vite` folder and restart dev server |
+### Component Architecture
 
----
+```
+App (Root)
+├── Layout
+│   ├── Header
+│   ├── Navigation
+│   ├── MainContent (Route-dependent)
+│   │   ├── Home
+│   │   ├── Characters
+│   │   ├── Timeline
+│   │   └── Universes
+│   └── Footer
+```
 
-## 🤝 Contributing
+### State Management
 
-We'd love your contributions! Whether it's bug fixes, new features, or improvements—all are welcome.
+React Context + Hooks (no Redux needed for this scope)
 
-### Steps:
-1. 🍴 **Fork** the repository
-2. 🌿 **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. 💾 **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. 📤 **Push** to your fork (`git push origin feature/amazing-feature`)
-5. 🔄 **Open** a Pull Request
+### Data Flow
 
-### Guidelines:
-- ✅ Follow ESLint configuration
-- ✅ Maintain TypeScript strict mode
-- ✅ Write tests for new features
-- ✅ Update README if needed
-- ✅ Keep commits atomic and descriptive
-
----
-
-## 📄 License
-
-Licensed under the **Apache License 2.0**
-
-You're free to use, modify, and distribute this code under the terms in the LICENSE file.
-
-**In short:** Go wild, just credit where it's due! 🙌
+```
+User Input → Event Handler → State Update 
+→ Re-render Component → Animation Trigger 
+→ Visual Update
+```
 
 ---
 
-## 🎯 Learning Resources
+## API Reference
 
-This project demonstrates:
-- ✨ Modern React patterns (hooks, composition)
-- 🎨 Advanced CSS & animation techniques
-- 📱 Responsive design principles
-- 🔒 TypeScript best practices
-- ⚡ Performance optimization
-- 🧪 Testing strategies
-- 🏗️ Scalable project architecture
+### Core Components
 
-**Perfect for your portfolio or learning!**
+#### `<CharacterGallery />`
+
+Props:
+```typescript
+interface CharacterGalleryProps {
+  filter?: 'all' | 'heroes' | 'villains';
+  sortBy?: 'name' | 'power' | 'appearance';
+  onSelect?: (character: Character) => void;
+  pageSize?: number;
+}
+```
+
+#### `<Timeline />`
+
+Props:
+```typescript
+interface TimelineProps {
+  startYear?: number;
+  endYear?: number;
+  onPhaseChange?: (phase: Phase) => void;
+}
+```
+
+### Custom Hooks
+
+#### `useAnimation()`
+
+```typescript
+const { animate, stop, isAnimating } = useAnimation({
+  duration: 600,
+  easing: 'ease-out'
+});
+```
 
 ---
 
-## ⭐ Show Your Support
+## Performance Considerations
 
-If this project helped you or inspired your next build, consider:
-- ⭐ **Starring** the repository
-- 🔗 **Sharing** with friends and colleagues
-- 💬 **Leaving feedback** via issues
-- 🤝 **Contributing** to make it better
+### Optimization Techniques
+
+1. **Code Splitting**
+   - Route-based chunking
+   - Lazy component loading
+
+2. **Image Optimization**
+   - WebP format with fallbacks
+   - Responsive images (srcset)
+   - Lazy loading intersection observer
+
+3. **Animation Performance**
+   - GPU acceleration (transform, opacity)
+   - Will-change property
+   - RequestAnimationFrame for smooth updates
+
+4. **Memory Management**
+   - Cleanup subscriptions in useEffect
+   - Proper event listener removal
+   - Avoiding memory leaks
 
 ---
 
-<div align="center">
+## Browser Support
 
-### 🚀 Ready to explore the Marvel Universe?
+### Supported Browsers
 
-[Start Here](http://localhost:5173) • [View Demo](#) • [Report Bug](../../issues) • [Request Feature](../../issues)
+| Browser | Minimum Version | Status |
+|---------|-----------------|--------|
+| Chrome | v90+ | Full support |
+| Firefox | v88+ | Full support |
+| Safari | v14+ | Full support |
+| Edge | v90+ | Full support |
+| Opera | v76+ | Full support |
+| IE 11 | — | Not supported |
+
+### Feature Support
+
+- ES2020 syntax required
+- CSS Grid & Flexbox
+- CSS Variables
+- Intersection Observer API
+- LocalStorage API
 
 ---
 
-**Built with ❤️ by developers who love Marvel and clean code.**
+## Contributing
 
-*May the web performance be with you! 🌟*
+### Contribution Process
 
-</div>
+1. **Fork the Repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Marvel-Web.git
+   cd Marvel-Web
+   ```
+
+2. **Create Feature Branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+
+3. **Make Changes**
+   - Follow code style guidelines
+   - Write tests for new features
+   - Update documentation
+
+4. **Commit Changes**
+   ```bash
+   git commit -m "feat: Add amazing feature"
+   ```
+
+5. **Push to Fork**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+
+6. **Create Pull Request**
+   - Describe changes clearly
+   - Link related issues
+   - Ensure CI/CD passes
+
+### Code Standards
+
+**Pre-commit Checklist:**
+- [ ] Code follows ESLint rules
+- [ ] Code formatted with Prettier
+- [ ] TypeScript strict mode passes
+- [ ] All tests pass
+- [ ] No console errors or warnings
+- [ ] Documentation updated if applicable
+
+---
+
+## Troubleshooting
+
+### Common Issues & Solutions
+
+#### Port 5173 Already in Use
+
+```bash
+# Option 1: Use different port
+npm run dev -- --port 3000
+
+# Option 2: Kill process on port (macOS/Linux)
+lsof -ti:5173 | xargs kill -9
+```
+
+#### TypeScript Errors After Dependency Update
+
+```bash
+rm -rf node_modules package-lock.json
+npm install
+npm run dev
+```
+
+#### Styles Not Updating in Development
+
+```bash
+rm -rf .vite
+npm run dev
+```
+
+#### Animations Stuttering or Janky
+
+```typescript
+// Enable hardware acceleration
+.animated-element {
+  will-change: transform;
+  transform: translateZ(0);
+}
+```
+
+#### Build Size Too Large
+
+```bash
+npm run build -- --analyze
+# Look for opportunities to code-split or optimize images
+```
+
+#### Audio Not Playing
+
+- Browser autoplay policy requires user interaction first
+- Click anywhere on page before testing
+- Check browser audio permissions
+- Verify audio file path
+
+---
+
+## License
+
+This project is licensed under the **Apache License 2.0**.
+
+### Summary
+
+You are free to:
+- ✅ Use the code commercially
+- ✅ Modify the code
+- ✅ Distribute copies
+- ✅ Use privately
+
+Under the condition:
+- ⚠️ Include license and copyright notice
+- ⚠️ Document significant changes
+
+**Full License:** See [LICENSE](LICENSE) file
+
+---
+
+## Support & Resources
+
+### Documentation
+
+- [Contribution Guidelines](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+
+### Useful Links
+
+**Technology Documentation:**
+- [React 18 Docs](https://react.dev)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs)
+- [Vite Guide](https://vitejs.dev/guide)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [GSAP Documentation](https://gsap.com/docs)
+- [Framer Motion Docs](https://www.framer.com/motion)
+
+### Community & Communication
+
+- **Issues:** [Report bugs or request features](../../issues)
+- **Discussions:** [Community discussions](../../discussions)
+- **Pull Requests:** [Contribute code](../../pulls)
+
+---
+
+## Changelog
+
+### Version 1.0.0 (Initial Release)
+
+**Features:**
+- Character gallery with filtering
+- Multiverse directory
+- Infinity Saga timeline
+- Fully responsive design
+- Animation system
+- Interactive elements
+
+**Tech Stack:**
+- React 18.0
+- TypeScript
+- Vite
+- Tailwind CSS
+- GSAP & Framer Motion
+
+---
+
+## Authors & Contributors
+
+**Original Author:** Varun B. ([@VarunB453](https://github.com/VarunB453))
+
+**Contributors:** [See contributors list](../../graphs/contributors)
+
+---
+
+## Acknowledgments
+
+This project was created to demonstrate:
+- Modern React patterns and best practices
+- Advanced CSS animation techniques
+- Responsive design methodologies
+- Component-driven architecture
+- TypeScript in production applications
+- Performance optimization strategies
+
+---
+
+**Last Updated:** March 2026  
+**Maintained By:** Community Contributors  
+**Status:** Active Development
