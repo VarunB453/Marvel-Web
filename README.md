@@ -19,7 +19,7 @@
 
 <div align="center">
 <video width="100%" height="auto" autoplay loop muted playsinline style="border-radius: 12px; box-shadow: 0 20px 60px rgba(192, 0, 0, 0.3); max-width: 1200px; margin: 20px 0;">
-  <source src="https://raw.githubusercontent.com/VarunB453/Marvel/main/src/assets/MOP.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/VarunB453/Marvel-Web/main/src/assets/MOP.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 </div>
